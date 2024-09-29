@@ -1,0 +1,35 @@
+header {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.nav-header {
+  display: table-row;
+  width: 100%;
+}
+
+.nav-header {
+  background-color: #ffe600;
+  border: 0;
+  position: relative;
+}
+
+.nav-header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #ffe600;
+  border: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav-header:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0;
+  top: 0;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, .1);
+}
